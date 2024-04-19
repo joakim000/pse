@@ -131,7 +131,7 @@ Ramverk för automatiserad regressionstestning.
 
 Som del av projektet producerade jag manualer - över API:et, för medarbetare som författar test-skript; samt för applikationen, för medarbetare eller kunder som kör tester och hanterar resultat.
 
-* Testutvecklare: [Sätta upp miljö](assets/testapp_utv1.pdf), [API-tutorial](assets/testapp_utv2.pdf)
+* Testutvecklare: [Sätta upp miljö](assets/testapp_env.pdf), [API-tutorial](assets/testapp_api.pdf)
 * Användare: [Grafisk applikation](assets/testapp_gui.pdf), [konsol-applikation](assets/testapp_konsol.pdf)
 
 ## Timeline of Composers
