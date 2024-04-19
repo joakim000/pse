@@ -112,6 +112,8 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 
 Verktyg för studier / undervisning i CRC-felkodning, samt validerings-test av implementationer.
 
+<img src="assets/explorer_help.png" width="300" align="top"><img src="assets/explorer_steps.png" width="300" align="top"><img src="assets/explorer_zoo.png" width="400" align="top">
+
 [Läs mer](https://github.com/joakim000/CRC_Explorer)
 
 ## TestApp by Unicus
