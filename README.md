@@ -25,8 +25,23 @@ Hårdvaru-agnostiskt ramverk i Rust för automatiserade växthus av arbiträr st
 
 [Se kod](https://github.com/joakim000/grow)
 
-### Demo-implementation med Raspberry Pi och LEGO®
+### Implementation med Raspberry Pi och LEGO®
 *Rust, [LEGO® Wireless Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/)*
+
+För att demonstrera Rusty Grow-ramverket med minimal specifik hårdvara; ett växthus ink. rörlig bevattningsarm, vattennivåsensor och vattenpump byggt i Lego. Tillkommande hårdvara var 2 vätskesensorer och en datorfläkt, samt en LCD-display och några LED-lampor för kontrollpanelen. En Raspberry Pi tjänstgör som styrenhet.
+
+<img src="assets/growdemo_overview.png" height="390"><br>
+*Översikt. Fjärrövervakning i bakgrunden. Handkontrollen används för att ställa in bevattningspositioner.*<br>
+
+<img src="assets/growdemo_arm_pump.png" height="300">
+<img src="assets/growdemo_fan_water.png" height="300">
+
+*Pantografarm på roterande bas för XY-positionering, peristaltisk pump. T.h. fläkt och vattenbehållare med nivåsensor.*
+
+<img src="assets/growdemo_panel.png" height="300">
+<img src="assets/growdemo_xymon.png" height="300">
+
+*Kontrollpanel med indikationslampor och display. T.h. statusövervakning med Xymon.*
 
 [Se kod](https://github.com/joakim000/grow/tree/main/examples/rpi3)
 
@@ -78,7 +93,7 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 
 
 ### Jämförelse med Xymons standard-gränsnitt
-<img src="assets/vfx_comp.png" width="1040" height="390">
+<img src="assets/vfx_comp.png" width="1097" height="325">
 
 | | VfX         | Xymon web interface |
 |---| ----------- | ----------- |
@@ -107,7 +122,7 @@ Verktyg för studier / undervisning i CRC-felkodning, samt validerings-test av i
 
 Ramverk för automatiserad regressionstestning.
 
-* Test-mortor och API för test-skript i C# eller Python
+* Test-motor och API för test-skript i C# eller Python
 * Särskilt API-stöd för web-testning med [Selenium](https://www.selenium.dev/)
 * Grafiskt konfigurations- och rapportgränsnitt (WPF)
 * Kommmandorads-gränssnitt för te.x. schemalagd körning (med möjlighet till rapportering med epost)
@@ -130,9 +145,10 @@ Sprunget ur en konversation om musik-historia, där vi hade önskat oss att se e
 I exemplet nedan har 7 kompositörer laddats in och visas på tidslinjen, CPE Bach är markerad och text, bilder samt musik-exempel från Wikipedia visas i resp. kolumn.
 
 
-<a href="assets/timeline_of_composers.png"><img src="assets/timeline_of_composers.png" width="640" height="446" alt="Lorem ipsum"></a>
+<img src="assets/timeline_of_composers.png" width="640" height="446" alt="Lorem ipsum">
+<br><br>
 
-Applikationen är i nuläget tyvärr ej uppdaterad efter ändringar i Wikipedias API.
+[Applikationen är i nuläget tyvärr ej uppdaterad efter ändringar i Wikipedias API.]: #
 
 [Se kod](https://github.com/joakim000/Timeline)
 
