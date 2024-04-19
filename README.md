@@ -67,7 +67,7 @@ Skräddarsydd påminnelse / call-to-action-applikation för drift-avdelningen p�
 [Användar-manual](https://joakim.dreamhosters.com/anslagstavlan_demo/help.html)<br>
 
 *I användning:*<br>
-<img src="assets/anslagstavlan.jpg" width="700" height="350" alt="Lorem ipsum">
+<img src="assets/anslagstavlan_circled.jpg" width="700" height="350" alt="Lorem ipsum">
 
 
 
