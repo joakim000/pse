@@ -88,7 +88,7 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 <img src="assets/vfx1.png" width="640" height="390">
 
 
-### Jämförelse med Xymons standard-gränsnitt
+### Överskådlighet jämfört med Xymons standard-gränsnitt
 <img src="assets/vfx_comp.png" width="1097" height="325">
 
 | | VfX         | Xymon web interface |
