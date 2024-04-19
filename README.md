@@ -33,12 +33,10 @@ För att demonstrera Rusty Grow-ramverket med minimal specifik hårdvara; ett v�
 <img src="assets/growdemo_overview.png" height="390"><br>
 *Översikt. Fjärrövervakning i bakgrunden. Handkontrollen används för att ställa in bevattningspositioner.*<br>
 
-<img src="assets/growdemo_arm_pump.png" height="300"> <img src="assets/growdemo_fan_water.png" height="300">
-
+<img src="assets/growdemo_arm_pump.png" height="300"> <img src="assets/growdemo_fan_water.png" height="300"><br>
 *Pantografarm på roterande bas för XY-positionering, peristaltisk pump. T.h. fläkt och vattenbehållare med nivåsensor.*
 
-<img src="assets/growdemo_panel.png" height="300"> <img src="assets/growdemo_xymon.png" height="300">
-
+<img src="assets/growdemo_panel.png" height="300"> <img src="assets/growdemo_xymon.png" height="300"><br>
 *Kontrollpanel med indikationslampor och display. T.h. statusövervakning med Xymon.*
 
 [Se kod](https://github.com/joakim000/grow/tree/main/examples/rpi3)
