@@ -28,7 +28,7 @@ Hårdvaru-agnostiskt ramverk i Rust för automatiserade växthus av arbiträr st
 ### Implementation med Raspberry Pi och LEGO®
 *Rust, [LEGO® Wireless Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/)*
 
-För att demonstrera Rusty Grow-ramverket med minimal specifik hårdvara; ett växthus ink. rörlig bevattningsarm, vattennivåsensor och vattenpump byggt i Lego. Tillkommande hårdvara var 2 vätskesensorer och en datorfläkt, samt en LCD-display och några LED-lampor för kontrollpanelen. En Raspberry Pi tjänstgör som styrenhet.
+För att demonstrera Rusty Grow-ramverket med minimal specifik hårdvara; ett växthus ink. rörlig bevattningsarm, vattennivåsensor och vattenpump byggt i Lego. Tillkommande hårdvara var 2 vätskesensorer, ett relä för ljusstyrning och en datorfläkt, samt en LCD-display och några LED-lampor för kontrollpanelen. En Raspberry Pi tjänstgör som styrenhet.
 
 <img src="assets/growdemo_overview.png" height="390"><br>
 *Översikt. Fjärrövervakning i bakgrunden. Handkontrollen används för att ställa in bevattningspositioner.*<br>
