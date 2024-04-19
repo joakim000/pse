@@ -146,7 +146,6 @@ I exemplet nedan har 7 kompositörer laddats in och visas på tidslinjen, CPE Ba
 
 
 <img src="assets/timeline_of_composers.png" width="640" height="446" alt="Lorem ipsum">
-<br><br>
 
 [Applikationen är i nuläget tyvärr ej uppdaterad efter ändringar i Wikipedias API.]: #
 
