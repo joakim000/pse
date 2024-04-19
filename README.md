@@ -120,6 +120,8 @@ Verktyg för studier / undervisning i CRC-felkodning, samt validerings-test av i
 
 Ramverk för automatiserad regressionstestning.
 
+Under min tid på mjukvarutest-företaget Unicus tog jag initativ till denna applikation som dels gav möjlighet att avsevärt snabba upp processer som tidigare utfördes för hand, och vidare gav möjlighet att till kunder erbjuda nya produkter, tex. dagliga regressionstester.
+
 * Test-motor och API för test-skript i C# eller Python
 * Särskilt API-stöd för web-testning med [Selenium](https://www.selenium.dev/)
 * Grafiskt konfigurations- och rapportgränsnitt (WPF)
