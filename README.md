@@ -25,10 +25,19 @@ Hårdvaru-agnostiskt ramverk i Rust för automatiserade växthus av arbiträr st
 
 [Se kod](https://github.com/joakim000/grow)
 
-### Demo-implementation med Raspberry Pi och LEGO®
+### Implementation med Raspberry Pi och LEGO®
 *Rust, [LEGO® Wireless Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/)*
 
-<img src="assets/grow_composite.png" >
+För att demonstrera Rusty Grow-ramverket med minimal specifik hårdvara; ett växthus ink. rörlig bevattningsarm, vattennivåsensor och vattenpump byggt i Lego. Tillkommande hårdvara var 2 vätskesensorer, ett relä för ljusstyrning och en datorfläkt, samt en LCD-display, en 74HC595 och några LED-lampor för kontrollpanelen. En Raspberry Pi tjänstgör som styrenhet.
+
+<img src="assets/growdemo_overview.png" height="390"><br>
+*Översikt. Fjärrövervakning i bakgrunden. Handkontrollen används för att ställa in bevattningspositioner.*<br>
+
+<img src="assets/growdemo_arm_pump.png" height="300"> <img src="assets/growdemo_fan_water.png" height="300"><br>
+*Pantografarm på roterande bas för XY-positionering, peristaltisk pump. T.h. fläkt och vattenbehållare med nivåsensor.*
+
+<img src="assets/growdemo_panel.png" height="300"> <img src="assets/growdemo_xymon.png" height="300"><br>
+*Kontrollpanel med indikationslampor och display. T.h. statusövervakning med Xymon.*
 
 [Se kod](https://github.com/joakim000/grow/tree/main/examples/rpi3)
 
@@ -58,7 +67,7 @@ Skräddarsydd påminnelse / call-to-action-applikation för drift-avdelningen p�
 [Användar-manual](https://joakim.dreamhosters.com/anslagstavlan_demo/help.html)<br>
 
 *I användning:*<br>
-<img src="assets/anslagstavlan.jpg" width="700" height="350" alt="Lorem ipsum">
+<img src="assets/anslagstavlan_circled.jpg" width="700" height="350" alt="Lorem ipsum">
 
 
 
@@ -79,8 +88,8 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 <img src="assets/vfx1.png" width="640" height="390">
 
 
-### Jämförelse med Xymons standard-gränsnitt
-<img src="assets/vfx_comp_horiz.png" width="1040" height="390">
+### Överskådlighet jämfört med Xymons standard-gränsnitt
+<img src="assets/vfx_comp.png" width="1097" height="325">
 
 | | VfX         | Xymon web interface |
 |---| ----------- | ----------- |
@@ -93,8 +102,6 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 |Nod-dokumentation | I sidovy | Skriv el. klipp/klistra nodnamn till dokumentations-söksida |
 |Skapa/uppdatera ticket | I sidovy | Skriv el. klipp/klistra nodnamn till ticket-söksida |
 
-[Läs mer](https://github.com/joakim000/Viewer-for-Xymon/blob/master/readme_assets/README.md)
-
 [Se kod](https://github.com/joakim000/Viewer-for-Xymon)
 
 ## CRC Explorer
@@ -103,7 +110,7 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 
 Verktyg för studier / undervisning i CRC-felkodning, samt validerings-test av implementationer.
 
-<img src="https://github.com/joakim000/CRC_Explorer/raw/main/assets/ex_output_steps.png" width="640" height="590">
+<img src="assets/explorer_help.png" width="290" align="top"><img src="assets/explorer_steps.png" width="290" align="top"><img src="assets/explorer_zoo.png" width="390" align="top">
 
 [Läs mer och se kod](https://github.com/joakim000/CRC_Explorer)
 
@@ -112,6 +119,8 @@ Verktyg för studier / undervisning i CRC-felkodning, samt validerings-test av i
 *C#, WPF*
 
 Ramverk för automatiserad regressionstestning.
+
+Under min tid på mjukvarutest-företaget Unicus tog jag initativ till denna applikation som dels gav möjlighet att avsevärt snabba upp processer som tidigare utfördes för hand, och vidare gav möjlighet att till kunder erbjuda nya produkter, tex. dagliga regressionstester.
 
 * Test-motor och API för test-skript i C# eller Python
 * Särskilt API-stöd för web-testning med [Selenium](https://www.selenium.dev/)
@@ -124,7 +133,7 @@ Ramverk för automatiserad regressionstestning.
 
 Som del av projektet producerade jag manualer - över API:et, för medarbetare som författar test-skript; samt för applikationen, för medarbetare eller kunder som kör tester och hanterar resultat.
 
-* Testutvecklare: [Sätta upp miljö](assets/testapp_utv1.pdf), [API-tutorial](assets/testapp_utv2.pdf)
+* Testutvecklare: [Sätta upp miljö](assets/testapp_env.pdf), [API-tutorial](assets/testapp_api.pdf)
 * Användare: [Grafisk applikation](assets/testapp_gui.pdf), [konsol-applikation](assets/testapp_konsol.pdf)
 
 ## Timeline of Composers
@@ -137,7 +146,6 @@ I exemplet nedan har 7 kompositörer laddats in och visas på tidslinjen, CPE Ba
 
 
 <img src="assets/timeline_of_composers.png" width="640" height="446" alt="Lorem ipsum">
-<br><br>
 
 [Applikationen är i nuläget tyvärr ej uppdaterad efter ändringar i Wikipedias API.]: #
 
@@ -147,6 +155,6 @@ I exemplet nedan har 7 kompositörer laddats in och visas på tidslinjen, CPE Ba
 
 *TBD*
 
-I planeringsstadie: Mobil applikation för att dokumentera tidsåtgång för återkommande aktivteter.
+*I planeringsstadie:* Mobil applikation för att dokumentera tidsåtgång för återkommande aktivteter.
 
 [Comment tempplate]: # 
