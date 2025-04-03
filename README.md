@@ -112,7 +112,7 @@ Verktyg för studier / undervisning i CRC-felkodning, samt validerings-test av i
 
 <img src="assets/explorer_help.png" width="290" align="top"><img src="assets/explorer_steps.png" width="290" align="top"><img src="assets/explorer_zoo.png" width="390" align="top">
 
-[Läs mer](https://github.com/joakim000/CRC_Explorer)
+[Läs mer och se kod](https://github.com/joakim000/CRC_Explorer)
 
 ## TestApp by Unicus
 
