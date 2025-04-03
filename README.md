@@ -140,7 +140,7 @@ Som del av projektet producerade jag manualer - över API:et, för medarbetare s
 
 *HTML, JavaScript*
 
-Sprunget ur en konversation om musik-historia, där vi hade önskat oss att se en tidslinje över när de kompositörer det talades om kompositörer levde och verkade. Detta blev till en web-applikation som hämtar information genom Wikipedias API. 
+Sprunget ur en konversation om musik-historia, där vi hade önskat oss att se en tidslinje över när de kompositörer det talades om levde och verkade. Detta blev till en web-applikation som hämtar information genom Wikipedias API. 
 
 I exemplet nedan har 7 kompositörer laddats in och visas på tidslinjen, CPE Bach är markerad och text, bilder samt musik-exempel från Wikipedia visas i resp. kolumn.
 
