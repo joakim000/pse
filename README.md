@@ -77,7 +77,7 @@ Skräddarsydd påminnelse / call-to-action-applikation för drift-avdelningen p�
 
 UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or Netrac. Batch ack/disable events, sorting, filtering, history, etc. Inline web ticketing.
 
-* Direkt uppdatering larmbilden istället för minut-intervaller
+* Direkt uppdatering larmbilden av (vs. minut-intervaller)
 * Avsevärd förbättring av överskådligheten genom sortering, filtrering, etc. (se jämförelse nedan)
 * Integrerade vyer av detaljstatus, historik, nod-dokumentation, knuten ticket
 * Semi-automatic ticketing
