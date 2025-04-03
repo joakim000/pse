@@ -28,8 +28,7 @@ Hårdvaru-agnostiskt ramverk i Rust för automatiserade växthus av arbiträr st
 ### Demo-implementation med Raspberry Pi och LEGO®
 *Rust, [LEGO® Wireless Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/)*
 
-<img src="assets/vfx_comp.png" >
-
+<img src="assets/grow_composite.png" >
 
 [Se kod](https://github.com/joakim000/grow/tree/main/examples/rpi3)
 
@@ -81,7 +80,7 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 
 
 ### Jämförelse med Xymons standard-gränsnitt
-<img src="assets/vfx_comp.png" width="1040" height="390">
+<img src="assets/vfx_comp_horiz.png" width="1040" height="390">
 
 | | VfX         | Xymon web interface |
 |---| ----------- | ----------- |
@@ -94,6 +93,8 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 |Nod-dokumentation | I sidovy | Skriv el. klipp/klistra nodnamn till dokumentations-söksida |
 |Skapa/uppdatera ticket | I sidovy | Skriv el. klipp/klistra nodnamn till ticket-söksida |
 
+[Läs mer](https://github.com/joakim000/Viewer-for-Xymon/blob/master/readme_assets/README.md)
+
 [Se kod](https://github.com/joakim000/Viewer-for-Xymon)
 
 ## CRC Explorer
@@ -101,6 +102,8 @@ UWP frontend for live monitoring with Xymon Monitor in the style of Netcool or N
 *C*
 
 Verktyg för studier / undervisning i CRC-felkodning, samt validerings-test av implementationer.
+
+<img src="https://github.com/joakim000/CRC_Explorer/raw/main/assets/ex_output_steps.png" width="640" height="590">
 
 [Läs mer](https://github.com/joakim000/CRC_Explorer)
 
@@ -110,7 +113,7 @@ Verktyg för studier / undervisning i CRC-felkodning, samt validerings-test av i
 
 Ramverk för automatiserad regressionstestning.
 
-* Test-mortor och API för test-skript i C# eller Python
+* Test-motor och API för test-skript i C# eller Python
 * Särskilt API-stöd för web-testning med [Selenium](https://www.selenium.dev/)
 * Grafiskt konfigurations- och rapportgränsnitt (WPF)
 * Kommmandorads-gränssnitt för te.x. schemalagd körning (med möjlighet till rapportering med epost)
