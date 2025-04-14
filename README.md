@@ -54,8 +54,6 @@ Efter mitt bidrag har craten funktionalitet att stödja komplexa och varierade p
 
 [Se kod](https://github.com/joakim000/lego-powered-up)
 
-[Se PR]()
-
 ## Anslagstavlan
 
 *HTML, JavaScript, PHP*
